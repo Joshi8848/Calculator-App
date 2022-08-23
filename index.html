@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <main class="calculator-app">
+      <div class="calculator-keys">
+        <div class="display-screen"></div>
+        <button
+          type="button"
+          class="operator button add"
+          data-action="add"
+          id="--add"
+          value="+"
+        >
+          +
+        </button>
+        <button
+          type="button"
+          class="operator button subtract"
+          data-action="subtract"
+          id="--subtract"
+          value="-"
+        >
+          -
+        </button>
+        <button
+          type="button"
+          class="operator button multiply"
+          data-action="multiply"
+          id="--multiply"
+          value="*"
+        >
+          &times;
+        </button>
+        <button
+          type="button"
+          class="operator button divide"
+          data-action="divide"
+          id="--divide"
+          value="/"
+        >
+          &#xf7;
+        </button>
+        <button class="button" id="7">7</button>
+        <button class="button" id="8">8</button>
+        <button class="button" id="9">9</button>
+        <button class="button" id="4">4</button>
+        <button class="button" id="5">5</button>
+        <button class="button" id="6">6</button>
+        <button class="button" id="1">1</button>
+        <button class="button" id="2">2</button>
+        <button class="button" id="3">3</button>
+        <button class="button" id="0">0</button>
+        <button
+          class="decimal button"
+          data-action="decimal"
+          id="decimal"
+          value="."
+        >
+          .
+        </button>
+        <button
+          class="button clear"
+          data-action="clear"
+          id="--clear"
+          value="clear"
+        >
+          AC
+        </button>
+        <button
+          class="button operator"
+          data-action="calculate"
+          id="equals"
+          value="="
+        >
+          =
+        </button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
